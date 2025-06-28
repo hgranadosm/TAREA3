@@ -17,7 +17,6 @@ body{
     position: relative;
     height: 100vh;
     width: 100%;
-    border-bottom: 2px solid #3adfdf;
     padding: 60px;
 }
 
@@ -36,15 +35,12 @@ header {
 }
 
 .contenedor-header {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     background-color: white;
-    padding:12px 90px;
+    padding:12px 30px;
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    gap: 10px;
 }
 
 .imagen-fondo {
@@ -58,24 +54,31 @@ header {
 }
 
 .menu-header{
-    gap: 20px;
+    gap: 12px;
+    display: flex;
 }
 
-.menu-header a {
-    color: rgb(41, 41, 41);
-    background-color:  #dddddd;
+.menu-enlace {
+    color: rgb(255, 255, 255);
+    background-color:  #cba1e4;
     border-radius: 100px;
-    padding: 3px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
     font-size: 14px;
     margin: 0 15px;
     text-decoration: none;
-    font-style: black;
+    font-weight: bold;
     letter-spacing: 1px;
-    transition: color 0.5s;
+    height: 41px;
+    width: 41px;
+    transition: all 0.3s ease;
 }
 
-.menu-header a:hover{
-    color: #3adfdf;
+.menu-enlace:hover{
+    color: #fff;
+    background-color: #3adfdf;
     margin: 0 15px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -84,12 +87,20 @@ header {
 
 .volver-titulo{
     padding: 10px;
-    background-color: rgb(189, 161, 102);
+    background-color: #9867b4;
     border-radius: 10px;
     text-decoration: none;
     color: white;
     font-size: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
+
+.volver-titulo:hover{
+    background-color: #b67dd8;
+    color: white;
+}
+
 
 .tituloPrincipal {
     position: absolute;
@@ -124,30 +135,34 @@ header {
 /* ---------------------------- Footer ---------------------------- */
 
 .footer {
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
 }
 .menu-links{
     display: flex;  
     gap: 25px;
     padding: 70px 70px;;
-    border: 2px solid rgb(105, 102, 102);
+    background-color: #cba1e4;
     border-radius: 20px;
     justify-content: center;
 }
 
 .menu-enlace-footer {
+    color: #cba1e4;
+    background-color:  #fff;
+    border-radius: 100px;
+    padding: 10px 15px;
     font-size: 14px;
-    color: rgb(155, 155, 155);
+    margin: 0 15px;
     text-decoration: none;
-    font-weight: 300;
+    font-style: black;
     letter-spacing: 1px;
-    transition: color 0.5s;
-    text-align: center; 
+    transition: all 0.4s ease;
 }
 
 .menu-enlace-footer:hover{
-    color: #3adfdf;;
+    color: #fff;
+    background-color: #3adfdf;
     text-decoration: none;
     letter-spacing: 1px;
 }

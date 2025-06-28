@@ -1,0 +1,126 @@
+body {
+    font-size: 22px;
+}
+
+.container{
+    margin-top: 120px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.formatos1 {
+    color: brown;
+}
+
+
+.inicio {
+    border-bottom: 1px solid rgb(143, 50, 50);
+}
+
+
+.logo2 img {
+    width: 70%;
+}
+
+h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+select {
+    width: 100%;
+    padding: 3px 20px;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #f9f9f9; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor y las columnas */
+.container {
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    padding: 20px;
+    background-color: #f3f4f6; /* Fondo suave pastel */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h4 {
+    color: #6c757d;
+}
+
+/* Estilos de los selectores */
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d1d8e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #333;
+    appearance: none; /* Eliminar la apariencia predeterminada del select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilo cuando se selecciona */
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo del placeholder */
+select option[disabled] {
+    color: #888; /* Color suave para el placeholder */
+    background-color: #f3f4f6;
+}
+
+/* Estilo del botón */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff4b5c; /* Rojo pastel */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d94c50; /* Cambio de color en hover */
+}
+
+/* Estilo para la imagen */
+.logo2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
