@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor {
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    background-image: url('../img/reto7/mapa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
+
+area {
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+area:nth-child(1) { /* Tienda */
+    left: 124px;
+    top: 123px;
+}
+
+area:nth-child(2) { /* Saco de dormir */
+    left: 296px;
+    top: 178px;
+}
+
+area:nth-child(3) { /* Mochila */
+    left: 414px;
+    top: 171px;
+}
+
+area:nth-child(4) { /* Linterna */
+    left: 115px;
+    top: 225px;
+}
+
+area:nth-child(5) { /* Botiquín */
+    left: 390px;
+    top: 280px;
+}
+
+.info {
+    margin-top: 20px;
+    display: none;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+.opciones {
+    text-align: left;
+    margin-top: 20px;
+    display: inline-block;
+}

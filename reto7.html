@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Imagen Interactivo</title>
+  <link rel="stylesheet" href="css/reto7.css">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor-header">
+            <nav class="menu-header">
+                <a href="./index.html">
+                    <h3 class="volver-titulo">Volver</h3>
+                </a>
+                <a class="menu-enlace" href="./reto1.html">1</a>
+                <a class="menu-enlace" href="./reto2.html">2</a>
+                <a class="menu-enlace" href="./reto3.html">3</a>
+                <a class="menu-enlace" href="./reto4.html">4</a>
+                <a class="menu-enlace" href="./reto5.html">5</a>
+                <a class="menu-enlace" href="./reto6.html">6</a>
+                <a class="menu-enlace" href="./reto7.html">7</a>
+                <a class="menu-enlace" href="./reto8.html">8</a>
+                <a class="menu-enlace" href="./reto9.html">9</a>
+                <a class="menu-enlace" href="./reto10.html">10</a>
+            </nav>
+        </div>
+    </header>
+
+<div class="contenedor">
+  
+  <map name="equipomap">
+    <area shape="circle" coords="120,150,20" href="#" alt="Tienda" onclick="mostrarInfo(1)">
+    <area shape="circle" coords="300,120,20" href="#" alt="Saco de dormir" onclick="mostrarInfo(2)">
+    <area shape="circle" coords="450,200,20" href="#" alt="Mochila" onclick="mostrarInfo(3)">
+    <area shape="circle" coords="200,300,20" href="#" alt="Linterna" onclick="mostrarInfo(4)">
+    <area shape="circle" coords="380,350,20" href="#" alt="Botiquín" onclick="mostrarInfo(5)">
+  </map>
+</div>
+
+<div class="info" id="info">
+  <h3 id="titulo"></h3>
+  <p id="descripcion"></p>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="menu-links">
+            <a class="menu-enlace-footer" href="./reto1.html">1</a>
+            <a class="menu-enlace-footer" href="./reto2.html">2</a>
+            <a class="menu-enlace-footer" href="./reto3.html">3</a>
+            <a class="menu-enlace-footer" href="./reto4.html">4</a>
+            <a class="menu-enlace-footer" href="./reto5.html">5</a>
+            <a class="menu-enlace-footer" href="./reto6.html">6</a>
+            <a class="menu-enlace-footer" href="./reto7.html">7</a>
+            <a class="menu-enlace-footer" href="./reto8.html">8</a>
+            <a class="menu-enlace-footer" href="./reto9.html">9</a>
+            <a class="menu-enlace-footer" href="./reto10.html">10</a>
+        </div>
+    </div>
+</footer>
+
+<div class="copyRight">
+    <p>Tarea 3 - Retos programados</p>
+</div>
+
+
+
+<script src="js/reto7.js"></script>
+
+</body>
+</html>

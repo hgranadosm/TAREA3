@@ -1,30 +1,24 @@
 function c1() {
-    document.getElementById("vehiculo").src = "imagenes/rojo.png";
-    document.getElementById("color").innerHTML = "RED MICA METALLIC (3R3)";
+    document.getElementById("vehiculo").src = "img/reto6/rojo.jpg";
+    document.getElementById("color").innerHTML = "ROJO FLAMA";
 }
 
 function c2() {
-    document.getElementById("vehiculo").src = "imagenes/negro.png";
-    document.getElementById("color").innerHTML = "ATTITUDE BLACK MICA (218)";
+    document.getElementById("vehiculo").src = "img/reto6/negro.jpg";
+    document.getElementById("color").innerHTML = "MOCHA METÁLICO";
 }
 
 function c3() {
-    document.getElementById("vehiculo").src = "imagenes/blanco.png";
-    document.getElementById("color").innerHTML = "SUPER WHITE IT (040)";
+    document.getElementById("vehiculo").src = "img/reto6/blanco.jpg";
+    document.getElementById("color").innerHTML = "BLANCO";
 }
 
 function c4() {
-    document.getElementById("vehiculo").src = "imagenes/naranja.png";
-    document.getElementById("color").innerHTML = "ORANGE METALLIC (4R8)";
+    document.getElementById("vehiculo").src = "img/reto6/azul.jpg";
+    document.getElementById("color").innerHTML = "AZUL NEPTUNO";
 }
 
 function c5() {
-    document.getElementById("vehiculo").src = "imagenes/verde.png";
-    document.getElementById("color").innerHTML = "CITRUS MICA METALLIC (6W2)";
-}
-
-
-function c6() {
-    document.getElementById("vehiculo").src = "imagenes/morado.png";
-    document.getElementById("color").innerHTML = "METALLIC VIOLET (000)";
+    document.getElementById("vehiculo").src = "img/reto6/gris.jpg";
+    document.getElementById("color").innerHTML = "GRIS EGEO";
 }
