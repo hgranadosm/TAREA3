@@ -3,19 +3,16 @@ window.onload = function() {
 }
 
 function calcularTotal() {
-    // Obtener valores del formulario
     const cliente = document.getElementById('txtCliente').value;
     const articulo = document.getElementById('txtArticulo').value;
     const cantidad = Number(document.getElementById('txtCantidad').value);
     const precio = Number(document.getElementById('txtPrecio').value);
 
-    // Calcular valores
     const subtotal = cantidad * precio;
     const iva = subtotal * 0.13;
     const servicio = subtotal * 0.05;
     const total = subtotal + iva + servicio;
 
-    // Mostrar resultados
     document.getElementById('txtResultadoCliente').value = cliente;
     document.getElementById('txtResultadoArticulo').value = articulo;
     document.getElementById('txtResultadoCantidad').value = cantidad;

@@ -25,27 +25,27 @@ area {
     position: absolute;
 }
 
-area:nth-child(1) { /* Tienda */
-    left: 124px;
-    top: 123px;
+area:nth-child(1) { 
+    left: 125px;
+    top: 122px;
 }
 
-area:nth-child(2) { /* Saco de dormir */
+area:nth-child(2) { 
     left: 296px;
     top: 178px;
 }
 
-area:nth-child(3) { /* Mochila */
+area:nth-child(3) { 
     left: 414px;
     top: 171px;
 }
 
-area:nth-child(4) { /* Linterna */
+area:nth-child(4) { 
     left: 115px;
     top: 225px;
 }
 
-area:nth-child(5) { /* Botiquín */
+area:nth-child(5) {
     left: 390px;
     top: 280px;
 }

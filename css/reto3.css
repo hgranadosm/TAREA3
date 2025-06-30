@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Arial', sans-serif;
     font-size: 18px;
@@ -9,15 +9,14 @@ body {
 
 .container2 {
     display: flex;
-    justify-content: space-between; /* Espacio entre columnas */
+    justify-content: space-between; 
     padding: 40px;
     margin-top: 50px;
     border-radius: 8px;
 }
 
-/* Columna izquierda (contenido principal) */
 .text1 {
-    width: 45%; /* Ajusta el tamaño de la columna */
+    width: 45%; 
     padding: 20px;
     font-size: 16px;
     color: #333;
@@ -25,12 +24,12 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    color: #6c757d; /* Color gris suave para el título */
+    color: #6c757d; 
 }
 
 h2 {
     font-size: 2rem;
-    color: #007bff; /* Color azul para el subtítulo */
+    color: #007bff;
 }
 
 p {
@@ -39,9 +38,8 @@ p {
     color: #666;
 }
 
-/* Columna derecha (Formulario y selección) */
 .select-container {
-    width: 45%; /* Ajusta el tamaño de la columna */
+    width: 45%; 
     padding: 20px;
 }
 
@@ -52,14 +50,14 @@ h5 {
 }
 
 #opciones {
-    width: 100%; /* Hace que el select ocupe todo el espacio disponible */
+    width: 100%; 
     padding: 10px;
     font-size: 16px;
     border: 1px solid #d1d8e0;
     border-radius: 6px;
     background-color: #ffffff;
     color: #333;
-    appearance: none; /* Elimina la apariencia predeterminada */
+    appearance: none; 
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
@@ -67,11 +65,10 @@ h5 {
 }
 
 #opciones:focus {
-    border-color: #a8dadc; /* Cambio de color al enfocar */
+    border-color: #a8dadc; 
     outline: none;
 }
 
-/* Estilos de los botones en la columna derecha */
 .cursor {
     cursor: pointer;
 }

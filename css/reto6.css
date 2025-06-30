@@ -7,12 +7,9 @@
 }
 
 
-/*botones circulares*/
-
 .btncirculos {
     padding: 15px;
     border: none;
-    /*distancia entre ellos*/
     margin: 15px;
     border-radius: 50%;
 }

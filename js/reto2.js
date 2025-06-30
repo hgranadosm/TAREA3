@@ -4,20 +4,16 @@ window.onload = function() {
 }
 
 function calcularConversion() {
-    // Obtener valores del formulario
     const montoDolares = Number(document.getElementById('txtMontoDolares').value);
     const tipoCambio = Number(document.getElementById('txtTipoCambio').value);
 
-    // Validar que los campos no estén vacíos
     if (!montoDolares || !tipoCambio) {
         alert('Por favor, complete todos los campos');
         return;
     }
 
-    // Realizar conversiones
     const montoColones = montoDolares * tipoCambio;
 
-    // Mostrar resultados
     document.getElementById('txtResultadoColones').value = montoColones.toFixed(2);
 }
 
@@ -37,20 +33,16 @@ function btnlimpiar(){
 
 
 function calcularConversionColones() {
-    // Obtener valores del formulario
     const montoColones = Number(document.getElementById('txtMontoColones').value);
     const tipoCambio = Number(document.getElementById('txtTipoCambio2').value);
 
-    // Validar que los campos no estén vacíos
     if (!montoColones || !tipoCambio) {
         alert('Por favor, complete todos los campos');
         return;
     }
 
-    // Realizar conversión de colones a dólares
     const montoDolares = montoColones / tipoCambio;
 
-    // Mostrar resultado
     document.getElementById('txtResultadoDolares2').value = montoDolares.toFixed(2);
 }
 
