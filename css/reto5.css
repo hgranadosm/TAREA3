@@ -63,7 +63,7 @@ body {
 
 .inputs {
     padding: 20px;
-    background-color: #e9e9e9; 
+    background-color: #ffffff; 
     border-radius: 8px;
     border: 1px solid #fdd9f8;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@ select {
     padding: 10px 15px;
     font-size: 16px;
     border-radius: 6px;
-    background-color: #ffffff;
+    background-color: #f8f0fb;
     border: 1px solid #a33194;
     color: #a33194;
     appearance: none;
