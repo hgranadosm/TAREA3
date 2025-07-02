@@ -61,7 +61,7 @@ document.getElementById('votacionForm').addEventListener('submit', function(e) {
 
     Swal.fire({
         title: '¡Voto Registrado!',
-        text: 'Su voto ha sido registrado exitosamente',
+        text: 'Su voto ha sido registrado',
         icon: 'success',
         confirmButtonText: 'OK'
     }).then(() => {

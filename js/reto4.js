@@ -17,7 +17,7 @@ window.onload = function() {
 
 
 document.getElementById("btn-clean").onclick = function(){
-    document.getElementById("output-img").innerHTML = "<img src='img/logo.png' class='img-fluid rounded' alt='logo' />";
+    document.getElementById("output-img").innerHTML = "<img src='img/reto4/perros.jpg' class='img-fluid rounded' alt='perro' />";
      document.getElementById("output-txt").innerHTML = "";
      document.getElementById("razas").value = "";
 }

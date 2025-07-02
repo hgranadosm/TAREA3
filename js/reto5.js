@@ -22,13 +22,15 @@ function calcular() {
             title: "Atencion",
             text: "Seleccionar el modelo y la versión de la computadora",
         });
+        return;
     }
     if (document.getElementById("version").value == "Seleccione una versión:") {
         swal.fire({
             icon: "info",
             title: "Atencion",
-            text: "Seleccionar el modelo y la versión de la computadora",
-        })
+            text: "Debes seleccionar el modelo y la versión de la computadora",
+        });
+        return;
     }
 
     var montoCuota = 0;
@@ -44,7 +46,7 @@ function calcular() {
                 montoCuota = 50;
             else
                 montoCuota = 100;
-            break
+            break;
         case "Huawei":
             if (n == "2019")
                 montoCuota = 75;
@@ -55,17 +57,23 @@ function calcular() {
             break;
     }
 
-    let imagenDireccion = "imagenes/" + a.toLowerCase() + ".jpg";
+    let imagenDireccion = "img/reto5/";
+    if (a == "Mac") {
+        imagenDireccion += "mac2019.jpg";
+    } else if (a == "HP") {
+        imagenDireccion += "windows2019.jpg";
+    } else if (a == "Huawei") {
+        imagenDireccion += "huawei2019.jpg";
+    } else {
+        imagenDireccion += "compu.jpg";
+    }
 
     swal.fire({
         imageUrl: imagenDireccion,
-        html: "<p> Mira la versión de la computadora " +
-            n +  " " + a + 
-            "<br><br> <strong>Cuota mensual:</strong></p> " +
-            "$" +
-            montoCuota,
+        html: `<div style="font-size: 1.3rem; color: #e75480; font-weight: bold; margin-bottom: 10px;">¡Detalles de tu selección!</div>
+               <div style="font-size: 1.1rem; color: #333;">Has elegido la computadora <span style='color:#e75480;'>${a}</span> versión <span style='color:#e75480;'>${n}</span>.<br><br><strong>Cuota mensual:</strong> <span style='color:#e75480;'>$${montoCuota}</span></div>`,
         imageWidth: 600,
         imageHeight: 250,
-        imageAlt: "Vehiculo " + a,
+        imageAlt: "Computadora " + a,
     });
 }

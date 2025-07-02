@@ -30,11 +30,7 @@ select {
     outline: none;
 }
 
-input[type=button] {
-    background: #c02929;
-    color: white;
-    border: 2px solid #34495e;
-}
+
 
 #txtResultadoMontoFinal {
     color: #c02929;
@@ -52,11 +48,19 @@ input[type=button] {
     margin-bottom: 30px;
 }
 
+.form-container h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+    color:  #6c757d;
+}
+
 .form-group {
     margin-bottom: 15px;
+    color:  #6c757d;
 }
 
 .form-group label {
+    font-size: 18px;
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
@@ -74,25 +78,31 @@ input[type=button] {
     margin-top: 20px;
 }
 
-.form-actions input[type="button"] {
-    padding: 10px 20px;
+
+#btnCalcular, #btnCalcular2  {
+    background-color: #a33194;
+    transition: all 0.3s ease;
+    color: white;
     border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 10px;
 }
 
-.form-actions input[type="button"]:first-child {
-    background-color: #007BFF;
+#btnCalcular, #btnCalcular2 :hover {
+    background-color:  #e64980;
     color: white;
 }
 
-.form-actions input[type="button"]:nth-child(2) {
+.limpiar{
     background-color: #FF4B5C;
     color: white;
+    margin-left: 10px;
+    border: none;
 }
 
+.limpiar:hover {
+    background-color: #ff6e7d;
+    color: white;
+    margin-left: 10px;
+}
 .result {
     margin-top: 20px;
 }
@@ -100,5 +110,5 @@ input[type=button] {
 .result-label {
     font-weight: bold;
     font-size: 16px;
-    color: #333;
+    color:  #6c757d;
 }

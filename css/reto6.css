@@ -21,8 +21,8 @@
 
 
 .info {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info h2 {
@@ -37,6 +37,7 @@
     background-color: rgb(238, 238, 238);
     padding: 40px 20px;
     border: solid rgb(180, 180, 180) 1px;
+    color: #800505;
 }
 
 .info2 {

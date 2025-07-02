@@ -16,3 +16,35 @@ input, select {
 .error {
   border: red solid 1px;
 }
+
+#razas {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #f8f0fb;
+  border: 1px solid #a33194;
+  color: #a33194;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#razas:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #e64980;
+}
+
+.boton{
+  background-color: #a33194;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.boton:hover{
+  background-color:  #e64980;
+   color: white;
+}

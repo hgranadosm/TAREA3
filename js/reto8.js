@@ -129,7 +129,7 @@ function agregarProfesor() {
 
         Swal.fire({
             icon: "success",
-            title: "Evaluación registrada exitosamente",
+            title: "Evaluación registrada",
             showClass: {
                 popup: `animate__animated animate__fadeIn`
             },

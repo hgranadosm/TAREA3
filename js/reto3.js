@@ -1,12 +1,16 @@
 function menu () {
     let seleccion = document.getElementById('opciones').value;
 
+    const lottieHtml = '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">' +
+        '<iframe src="https://lottie.host/embed/bd1a292d-cdca-4fe9-b114-01d78a188f3a/7HD8J1alhU.lottie" style="width:200px;height:200px;border:none;background:transparent;"></iframe>' +
+        '<div style="margin-top:10px;font-size:1.2em;color:#d81b60;font-weight:bold;">Redirigiendo...</div>' +
+        '</div>';
+
     switch (seleccion) {
         case 'A':
             Swal.fire({
-                icon: "success",
+                html: lottieHtml,
                 title: "Recetas Nestlé",
-                text: "Redirigiendo...",
                 showConfirmButton: false,
                 timer: 2000,
             }).then(() => {
@@ -16,9 +20,8 @@ function menu () {
 
         case 'B':
             Swal.fire({
-                icon: "success",
+                html: lottieHtml,
                 title: "Cookpad Costa Rica",
-                text: "Redirigiendo...",
                 showConfirmButton: false,
                 timer: 2000,
             }).then(() => {
@@ -28,9 +31,8 @@ function menu () {
 
         case 'C':
             Swal.fire({
-                icon: "success",
+                html: lottieHtml,
                 title: "Recetas de Postres",
-                text: "Redirigiendo...",
                 showConfirmButton: false,
                 timer: 2000,
             }).then(() => {
@@ -40,9 +42,8 @@ function menu () {
 
         case 'D':
             Swal.fire({
-                icon: "success",
+                html: lottieHtml,
                 title: "My Switzerland",
-                text: "Redirigiendo...",
                 showConfirmButton: false,
                 timer: 2000,
             }).then(() => {
@@ -52,9 +53,8 @@ function menu () {
 
         case 'E':
             Swal.fire({
-                icon: "success",
+                html: lottieHtml,
                 title: "National Geographic Suiza",
-                text: "Redirigiendo...",
                 showConfirmButton: false,
                 timer: 2000,
             }).then(() => {

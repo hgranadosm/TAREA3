@@ -4,6 +4,42 @@ body {
     padding: 20px;
 }
 
+
+
+
+/* --------------------- HEADER --------------------- */
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding:20px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-header {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:12px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-fondo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px;
+   
+}
+
+
 .container {
     background-color: white;
     margin-top: 150px;
@@ -27,6 +63,7 @@ form div {
 
 form label {
     font-weight: bold;
+    color: #6c757d;
 }
 
 form input[type="text"], form input[type="number"] {
@@ -34,8 +71,13 @@ form input[type="text"], form input[type="number"] {
     padding: 10px;
     margin-top: 5px;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid#a33194;
     font-size: 16px;
+}
+
+form input[type="text"], form input[type="number"]:focus {
+    border-color: #dca8d3; 
+    outline: none;
 }
 
 .pt-3 {
@@ -51,45 +93,44 @@ input[type="button"] {
 }
 
 #btnCalcular {
-    background-color: #007BFF;
+    background-color: #a33194;
+    transition: all 0.3s ease;
     color: white;
 }
 
-input[type="button"]:nth-child(2) {
+#btnCalcular:hover {
+     background-color:  #e64980;
+   color: white;
+}
+
+
+
+.limpiar{
     background-color: #FF4B5C;
     color: white;
     margin-left: 10px;
 }
 
+.limpiar:hover {
+    background-color: #ff6e7d;
+    color: white;
+    margin-left: 10px;
+}
+
+
 .resultados {
     margin-top: 20px;
-    background-color: #f0f8ff;
+    background-color:  #f8f0fb;
     padding: 15px;
     border-radius: 8px;
 }
 
 .negrita {
     font-weight: bold;
+    color: #6c757d;
 }
 
-footer {
-    margin-top: 20px;
-}
 
-.menu-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.menu-enlace-footer {
-    text-decoration: none;
-    color: #333;
-}
-
-.copyRight {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #777;
+#txtResultadoCliente{
+    border-bottom: #FF4B5C;
 }

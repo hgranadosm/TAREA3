@@ -9,10 +9,9 @@ body {
 
 .container2 {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
     padding: 40px;
-    margin-top: 50px;
-    border-radius: 8px;
+    margin-top: 100px;
 }
 
 .text1 {
@@ -22,14 +21,18 @@ body {
     color: #333;
 }
 
+.container2 h1{
+    font-size: 30px;
+}
+
 h1 {
-    font-size: 2.5rem;
+    font-size: 20px;
     color: #6c757d; 
 }
 
 h2 {
     font-size: 2rem;
-    color: #007bff;
+    color: #8828ad;
 }
 
 p {
@@ -50,14 +53,14 @@ h5 {
 }
 
 #opciones {
-    width: 100%; 
-    padding: 10px;
+    width: 100%;
+    padding: 10px 15px;
     font-size: 16px;
-    border: 1px solid #d1d8e0;
     border-radius: 6px;
-    background-color: #ffffff;
-    color: #333;
-    appearance: none; 
+    background-color: #f8f0fb;
+    border: 1px solid #a33194;
+    color: #a33194;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
@@ -65,7 +68,7 @@ h5 {
 }
 
 #opciones:focus {
-    border-color: #a8dadc; 
+    border-color: #dca8d3; 
     outline: none;
 }
 
