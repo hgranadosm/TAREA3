@@ -63,7 +63,7 @@ form div {
 
 form label {
     font-weight: bold;
-    color: #6c757d;
+    color: #a33194;
 }
 
 form input[type="text"], form input[type="number"] {
@@ -127,7 +127,7 @@ input[type="button"] {
 
 .negrita {
     font-weight: bold;
-    color: #6c757d;
+  color: #a33194;
 }
 
 
