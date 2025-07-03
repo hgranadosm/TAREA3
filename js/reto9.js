@@ -28,6 +28,15 @@ document.getElementById('votacionForm').addEventListener('submit', function(e) {
     const fechaNacimiento = document.getElementById('fechaNacimiento').value;
     const candidatoSeleccionado = document.querySelector('input[name="candidato"]:checked');
 
+    if (!nombreCompleto || !cedula || !email || !fechaNacimiento || !candidatoSeleccionado) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Campos incompletos',
+            text: 'Por favor rellene todos los campos.'
+        });
+        return;
+    }
+
     if (!validarCedula(cedula)) {
         Swal.fire('Error', 'La cédula debe tener 9 dígitos', 'error');
         return;
@@ -88,3 +97,5 @@ document.getElementById('verResultados').addEventListener('click', function() {
         icon: 'info'
     });
 });
+
+ 

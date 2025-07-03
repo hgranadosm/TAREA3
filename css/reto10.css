@@ -31,6 +31,13 @@ body {
     align-items: center;
 }
 
+.buscadorForm{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
 label {
     font-weight: bold;
     font-size: 26px;
@@ -38,19 +45,38 @@ label {
     margin-bottom: 10px;
 }
 
-.btn {
-    padding: 12px 28px;
-    background-color: #ec407a;
-    color: #fff;
+.boton1{
+    background-color: #a33194;
+    transition: all 0.3s ease;
+    color: white;
     border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: all 0.4s ease;
-    box-shadow: 0 2px 8px rgba(236, 64, 122, 0.15);
+    margin: 5px;
+    padding: 10px 20px;;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
 }
 
-.btn:hover {
-    background-color: #ad1457;
+.boton1:hover {
+    color: white;
+    background-color: #e64980;
+}
+
+.boton2{
+    background-color: #FF4B5C;
+    transition: all 0.3s ease;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.boton2:hover {
+    background-color: #ff6e7d;
+    color: white;
+
 }
 

@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #a33194;
+     color: #a33194;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,9 +16,9 @@ body {
     margin-top: 100px;
 }
 
-.container-cards{
-    justify-content: center;
-    gap: 20px;
+.card-header{
+    color: white;
+    background-color: #e64980;
 }
 
 
@@ -30,35 +30,56 @@ h1 {
 label {
     margin-top: 10px;
     font-weight: bold;
-  color: #a33194;
+    color: #a33194;
 }
+
+
 
 input, select {
     margin: 5px;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #3498db;
     border-radius: 5px;
-    background-color: #ecf0f1;
-   color: #a33194;
+    border: 1px solid#a33194;
+    color: #a33194;
     outline: none;
 }
 
-.boton {
+
+
+.boton1{
     background-color: #a33194;
     transition: all 0.3s ease;
     color: white;
     border: none;
-     margin: 5px;
+    margin: 5px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     outline: none;
 }
 
-.boton:hover {
-      color: white;
+.boton1:hover {
+    color: white;
     background-color: #e64980;
+}
+
+.boton2{
+    background-color: #FF4B5C;
+    transition: all 0.3s ease;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.boton2:hover {
+    background-color: #ff6e7d;
+    color: white;
+    margin-left: 10px;
 }
 
 hr {
