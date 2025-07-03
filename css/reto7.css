@@ -18,36 +18,36 @@ body {
 
 area {
     cursor: pointer;
-    background: rgba(255, 0, 0, 0.3);
+    background: rgba(214, 74, 195, 0.3);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: absolute;
 }
 
 area:nth-child(1) { 
-    left: 125px;
-    top: 122px;
+    left: 120px;
+    top: 117px;
 }
 
 area:nth-child(2) { 
-    left: 296px;
-    top: 178px;
+    left: 293px;
+    top: 174px;
 }
 
 area:nth-child(3) { 
-    left: 414px;
-    top: 171px;
+    left: 410px;
+    top: 168px;
 }
 
 area:nth-child(4) { 
-    left: 115px;
-    top: 225px;
+    left: 112px;
+    top: 221px;
 }
 
 area:nth-child(5) {
-    left: 390px;
-    top: 280px;
+    left: 386px;
+    top: 275px;
 }
 
 .info {
@@ -55,18 +55,22 @@ area:nth-child(5) {
     display: none;
     background: #fff;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #a33194;
     border-radius: 5px;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
+    color: #a33194;
 }
 
 .info h3 {
     margin-top: 0;
+    color: #a33194;
+    margin-bottom: 10px;
 }
 .opciones {
     text-align: left;
     margin-top: 20px;
     display: inline-block;
 }
+

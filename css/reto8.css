@@ -7,52 +7,64 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #2c3e50;
-    color: #ecf0f1; 
+     color: #a33194;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .container{
     margin-top: 100px;
 }
 
+.container-cards{
+    justify-content: center;
+    gap: 20px;
+}
+
+
 h1 {
-    color: #3498db;
-    margin-bottom: 20px;
+   color: #a33194;
+    margin-bottom: 30px;
 }
 
 label {
     margin-top: 10px;
     font-weight: bold;
-    color: #ecf0f1;
+  color: #a33194;
 }
 
-input, select, button {
+input, select {
     margin: 5px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #3498db;
     border-radius: 5px;
     background-color: #ecf0f1;
-    color: #333; 
+   color: #a33194;
     outline: none;
 }
 
-button {
-    background-color: #3498db;
-    color: #ecf0f1; 
-    cursor: pointer;
+.boton {
+    background-color: #a33194;
+    transition: all 0.3s ease;
+    color: white;
+    border: none;
+     margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
 }
 
-button:hover {
-    background-color: #2980b9;
+.boton:hover {
+      color: white;
+    background-color: #e64980;
 }
 
 hr {
-    border: 1px solid #3498db;
+    border: 1px solid #a33194;
     width: 100%;
     margin: 20px 0;
 }
@@ -60,6 +72,7 @@ hr {
 #resultado {
     font-size: 18px;
     margin-top: 10px;
-    color: #ecf0f1;
+    color: #8d8d8d;
     font-weight: bold;
 }
+
